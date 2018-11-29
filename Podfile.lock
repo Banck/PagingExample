@@ -1,0 +1,34 @@
+PODS:
+  - CollectionKit (2.2.0):
+    - CollectionKit/Core (= 2.2.0)
+  - CollectionKit/Core (2.2.0)
+  - CollectionKit/WobbleAnimator (2.2.0):
+    - CollectionKit/Core
+    - YetAnotherAnimationLibrary (~> 1.3.0)
+  - YetAnotherAnimationLibrary (1.3.0)
+
+DEPENDENCIES:
+  - CollectionKit (from `https://github.com/SoySauceLab/CollectionKit`, branch `perf-test`)
+  - CollectionKit/WobbleAnimator (from `https://github.com/SoySauceLab/CollectionKit`, branch `perf-test`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YetAnotherAnimationLibrary
+
+EXTERNAL SOURCES:
+  CollectionKit:
+    :branch: perf-test
+    :git: https://github.com/SoySauceLab/CollectionKit
+
+CHECKOUT OPTIONS:
+  CollectionKit:
+    :commit: 33ad680273d729f95c29becf54b49cd43648c4cd
+    :git: https://github.com/SoySauceLab/CollectionKit
+
+SPEC CHECKSUMS:
+  CollectionKit: 5caa5341860d4c9b748ebfeaab97530b2d02c7c0
+  YetAnotherAnimationLibrary: 69655d8bc9986919f334c940ddebde8e42bdd007
+
+PODFILE CHECKSUM: 549dc53fbf51e174948692b74248699ad9761ac8
+
+COCOAPODS: 1.6.0.beta.2
